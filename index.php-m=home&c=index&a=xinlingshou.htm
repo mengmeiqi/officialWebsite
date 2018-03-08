@@ -1,0 +1,244 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>新零售_新零售电商软件_全渠道电商 – 亿创网络</title>
+<meta name="Keywords" content="新零售, 门店,线上线下一体化,全渠道电商 ,全渠道O2O , 线上网店,门店收银,渠道营销,客户管理 ,全渠道进销存,行业电商解决方案" />
+<meta name="description" content="亿创网络，为线下门店实体提供线上线下一体化的电商解决方案" />
+<link rel="stylesheet" type="text/css" href="Application/Home/View/css/base.css"/>
+<link rel="stylesheet" type="text/css" href="Application/Home/View/css/main.css" />
+<script type="text/javascript" src="Application/Home/View/js/jquery-1.9.1.min.js" ></script>
+    <style>
+    </style>
+</head>
+
+<body>
+<!--头部 start-->
+<!--<iframe id="userSel"  width="100%" height="90" src="login.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>-->
+<div class="tophead">
+   <div class="warper clearfix">
+      <div class="logo"><a href="index.php-m=home&c=index&a=index.htm" ><img src="Application/Home/View/images/logo.png"  /></a></div>
+      <div class="menu">
+         <ul>
+            <li><a href="index.htm" >首页</a><s></s></li>
+           <li  class="active"><a href="index.php-m=home&c=index&a=xinlingshou.htm" >新营销</a><s></s></li>
+           <li><a href="index.php-m=home&c=index&a=vipoperation.htm" >会员营销</a><s></s></li>
+           <li><a href="index.php-m=home&c=index&a=cashier.htm">支付功能</a><s></s></li>
+           <li><a href="index.php-m=home&c=index&a=aboutus.htm" >公司介绍</a></li>
+         </ul>
+      </div>
+                <!--<div class="toplogin">
+            <a href="index.php-m=v5&c=index&a=login.htm"  class="Abtn1">登录</a>
+            <a href="index.php-m=v5&c=index&a=register.htm"  class="Abtn2">注册</a>
+          </div>   -->
+       <iframe  height="90" src="login.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+   </div>
+</div>
+<!--头部 end-->
+<script type="text/javascript">
+	$(function(){
+		var url = window.location.href;
+		$('.menu ul li').each(function(){
+			var attr = $(this).find('a').attr('href');
+			if(url.indexOf(attr) >= 0){
+				$(this).addClass('active').siblings().removeClass('active');
+			}
+		})
+		
+		$(".LoginIn").hover(function(){
+		   $(".dd",this).show()	
+		},function(){
+			$(".dd",this).hide()	
+		})
+		
+		//获取要定位元素距离浏览器顶部的距离
+        var navH = $(".tophead").offset().top;
+        //滚动条事件
+        $(window).scroll(function(){
+        //获取滚动条的滑动距离
+        var scroH = $(this).scrollTop();
+        //滚动条的滑动距离大于等于定位元素距离浏览器顶部的距离，就固定，反之就不固定
+        if(scroH>navH){
+            $(".tophead").addClass("fixed");
+			}else if(scroH<=navH){
+			$(".tophead").removeClass("fixed");
+			}
+        })
+	})
+</script>
+<!--banner start-->
+<div class="banner">
+  <div class="warper">
+     <div class="bd"><img src="Application/Home/View/images/banner-xls.jpg"  /></div>
+  </div>
+</div>
+<!--banner end-->
+<!--main start-->
+<div class="xls1">
+   <div class="warper">
+       <div class="maintit">
+          <h1>适合以下零售行业使用</h1>
+          <p><s></s>满足各行业零售店经营管理需求<s></s></p>
+       </div>
+       <div class="list">
+         <ul class="clearfix">
+            <li><img src="Application/Home/View/images/xls1-icon01.png"  /><span>水果店</span></li>
+            <li><img src="Application/Home/View/images/xls1-icon02.png" /><span>蛋糕店</span></li>
+            <li><img src="Application/Home/View/images/xls1-icon03.png"  /><span>茶饮店</span></li>
+            <li><img src="Application/Home/View/images/xls1-icon04.png"  /><span>便利店</span></li>
+            <li><img src="Application/Home/View/images/xls1-icon05.png" /><span>小超市</span></li>
+            <li><img src="Application/Home/View/images/xls1-icon06.png" /><span>母婴店</span></li>
+            <li><img src="Application/Home/View/images/xls1-icon07.png" /><span>零食店</span></li>
+            <li><img src="Application/Home/View/images/xls1-icon08.png"/><span>服装店</span></li>
+            <li><img src="Application/Home/View/images/xls1-icon09.png" /><span>酒店</span></li>
+            <li><img src="Application/Home/View/images/xls1-icon10.png"  /><span>更多行业</span></li>
+         </ul>
+       </div>
+   </div>
+</div><!--xls1 end-->
+<div class="xls2">
+   <div class="warper">
+      <div class="maintit">
+          <h1>6大核心功能</h1>
+          <p><s></s>一体化的全渠道新零售解决方案<s></s></p>
+       </div>
+       <div class="list">
+          <ul class="clearfix">
+             <li>
+                <div class="txt"><h2>线上网店</h2><p>强大稳定的开店系统，快速搭建商城</p></div>
+                <div class="icon"><img src="Application/Home/View/images/xls2-icon01.png" /></div>
+             </li>
+             <li>
+                <div class="txt"><h2>门店收银</h2><p>pos刷卡、二维码支付、线上支付，一体化收银</p></div>
+                <div class="icon"><img src="Application/Home/View/images/xls2-icon02.png" /></div>
+             </li>
+             <li>
+                <div class="txt"><h2>渠道营销</h2><p>全渠道流量运营，提升流量和销量</p></div>
+                <div class="icon"><img src="Application/Home/View/images/xls2-icon03.png" /></div>
+             </li>
+             <li>
+                <div class="txt"><h2>客户管理</h2><p>不怕没有回头客，精准营销拉升客单</p></div>
+                <div class="icon"><img src="Application/Home/View/images/xls2-icon04.png"/></div>
+             </li>
+             <li>
+                <div class="txt"><h2>全渠道进销存</h2><p>线上线下动态核单，一体化库存管理</p></div>
+                <div class="icon"><img src="Application/Home/View/images/xls2-icon05.png"  /></div>
+             </li>
+             <li>
+                <div class="txt"><h2>数据分析</h2><p>全方位经营数据分析，辅助经营决策</p></div>
+                <div class="icon"><img src="Application/Home/View/images/xls2-icon06.png"/></div>
+             </li>
+          </ul>
+       </div>
+   </div>
+</div><!--xls2 end-->
+<div class="xls3">
+   <div class="warper  overh">
+       <div class="maintit">
+          <h1>线上线下互通：打通数据和场景</h1>
+          <p><s></s>订单通<s></s></p>
+       </div>
+       <div class="list1">
+         <ul class="clearfix">
+            <li><div class="img"><img src="Application/Home/View/images/xls-img01.jpg" /></div><h4>网店下单 、门店发货</h4><div class="txt">顾客在网店下单，自动生成门店发货单，高效处理</div></li>
+            <li><div class="img"><img src="Application/Home/View/images/xls-img02.jpg"  /></div><h4>店内下单 、系统自动配送</h4><div class="txt">客户事情忙，店内选商品、下单，统一系统配送</div></li>
+            <li><div class="img"><img src="Application/Home/View/images/xls-img03.jpg"  /></div><h4>订单渠道来源 、自动统计</h4><div class="txt">每天、每周自动统计订单的来源渠道，分析经营效果</div></li>
+         </ul>
+       </div>
+       <div class="maintit mt90">
+          <p><s></s>会员通<s></s></p>
+       </div>
+       <div class="list2">
+         <ul class="clearfix">
+            <li><div class="img"><img src="Application/Home/View/images/xls-img04.png"  /></div><h4>会员一卡通 、储值卡 、积分</h4><div class="txt">门店、网店通用，促进客户消费，提升客户体验，提高客户管理水平</div></li>
+            <li><div class="img"><img src="Application/Home/View/images/xls-img05.png"  /></div><h4>会员线上 、线下所有数据沉淀</h4><div class="txt">不断积累用户数据，用户偏好精准分析，针对不同人群做针对性运营</div></li>
+         </ul>
+       </div>
+       <div class="maintit mt90">
+          <p><s></s>商品通<s></s></p>
+       </div>
+       <div class="list3">
+         <ul class="clearfix">
+            <li><div class="img"><img src="Application/Home/View/images/xls-img06.jpg"  /></div><h4>门店商品  线上销售</h4><div class="txt">门店商品发到网店销售，附近5公里客户都可以看到、购买</div></li>
+            <li><div class="img"><img src="Application/Home/View/images/xls-img07.jpg"  /></div><h4>门店网点，库存自动同步</h4><div class="txt">商品统一入库，门店网店库存同步更新。网店销售，门店库存自动扣减</div></li>
+         </ul>
+       </div>
+       <div class="maintit mt90">
+          <p><s></s>营销通<s></s></p>
+       </div>
+       <div class="list4">
+         <ul class="clearfix">
+            <li><div class="img"><img src="Application/Home/View/images/xls-img08.png"  /></div><h4>网上营销  线下消费</h4><div class="txt">附近小程序、微信群、QQ群营销活动，可以直接线下消费抵扣</div></li>
+            <li><div class="img"><img src="Application/Home/View/images/xls-img09.png"  /></div><h4>线下广告牌  宣传单活动</h4><div class="txt">通过传统广告牌、宣传单，可以获取客户手机号码，营销价格抵扣</div></li>
+            <li><div class="img"><img src="Application/Home/View/images/xls-img10.png" /></div><h4>每个线下活动  就是一个店面</h4><div class="txt">每个线下营销活动，就是一个店面，客户扫码看商品、消费</div></li>
+         </ul>
+       </div>
+   </div>
+</div><!--xls3 end-->
+<div class="xls4">
+   <div class="warper  overh">
+      <div class="maintit">
+          <h1>针对性的行业解决方案</h1>
+       </div>
+      <ul class="clearfix">
+         <li><div class="img"><img src="Application/Home/View/images/xls-img11.jpg" /></div><p>水果生鲜<br />新零售解决方案</p></li>
+         <li><div class="img"><img src="Application/Home/View/images/xls-img12.jpg" /></div><p>商超便利<br />新零售解决方案</p></li>
+         <li><div class="img"><img src="Application/Home/View/images/xls-img13.jpg"/></div><p>儿童母婴<br />新零售解决方案</p></li>
+         <li><div class="img"><img src="Application/Home/View/images/xls-img14.jpg" /></div><p>蛋糕茶饮<br />新零售解决方案</p></li>
+         <li><div class="img"><img src="Application/Home/View/images/xls-img15.jpg"  /></div><p>零售连锁<br />新零售解决方案</p></li>
+      </ul>
+   </div>
+</div><!--xls4 end-->
+
+<!--main end-->
+<!--footer start-->
+<iframe width="100%"  height="264" src="footer.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<!--<div class="footer">-->
+    <!--<div class="warper">-->
+       <!--<ul class="clearfix">-->
+           <!--<li class="part1">-->
+              <!--<div class="icon"></div>-->
+              <!--<h4>我们的服务</h4>-->
+              <!--<p>-->
+                <!--<span><a href="#" target="_blank">微信小程序</a></span>-->
+                <!--<span><a href="#" target="_blank">新零售IT建设和运营</a></span>-->
+                <!--<span><a href="#" target="_blank">会员营销和运营</a></span>-->
+                <!--<span><a href="#" target="_blank">线上线下一体化收银系统</a></span>-->
+                <!--<span><a href="#" target="_blank">电商服务化运营</a></span>-->
+                <!--<span><a href="#" target="_blank">线下商家IT规划咨询</a></span>-->
+              <!--</p>-->
+           <!--</li>-->
+           <!--<li class="part2">-->
+              <!--<div class="icon"></div>-->
+              <!--<h4>联系方式</h4>-->
+              <!--<p>-->
+                <!--&lt;!&ndash; <span>总机：400-691-8851</span> &ndash;&gt;-->
+                 <!--<span>联系电话：187-4253-6684</span>-->
+                <!--<span>座机：0411-65899201</span>-->
+                <!--<span>邮箱：yichuang@yichuangcc.cn</span>-->
+              <!--</p>-->
+           <!--</li>-->
+           <!--<li class="part3">-->
+              <!--<div class="icon"></div>-->
+              <!--<h4>关注我们</h4>-->
+              <!--<p class="img">-->
+                <!--<img src="Application/Home/View/images/ewm.png" />-->
+              <!--</p>-->
+           <!--</li>-->
+       <!--</ul>-->
+    <!--</div>-->
+    <!--<div class="copyright"><p>@亿创网络    </p></div>-->
+<!--</div>-->
+<script>
+    console.log(document.getElementById("userSel"),"王海鹏")
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "../hm.baidu.com/hm.js-c7fb3b24df52cca002d1e74dcccb401a"/*tpa=https://hm.baidu.com/hm.js?c7fb3b24df52cca002d1e74dcccb401a*/;
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+<!--footer end-->
+</body>
+</html>

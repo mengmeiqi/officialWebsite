@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+/* tophead */
+.tophead{ width:100%; min-width:1200px; background:#fff; height:90px; position:relative; z-index:999; border-bottom:1px solid #dedede; opacity:0.9;}
+.fixed{position:fixed; top:0px; margin-top:0px;_position:absolute; _top:expression(documentElement.scrollTop);}
+.tophead .logo{ float:left; padding:15px 0;}
+.tophead .menu{ float:left; margin-left:70px;}
+.tophead .menu li{ padding:0 30px; line-height:90px; font-size:16px; float:left; position:relative; z-index:0;}
+.tophead .menu li s{ position:absolute; right:0; top:37px; width:1px; height:16px; background:#333; font-size:0; display:none;}
+.tophead .menu li.active a{ color:#1665c1;}
+.toplogin{ float:right; padding:27px 0;}
+.toplogin a{ float:left; margin-left:10px; display:inline-block; padding:0 34px; line-height:34px; font-size:16px; border-radius:3px;}
+.LoginIn{ float:right; font-size:16px; color:#1665c1; position:relative; z-index:999;}
+.LoginIn .dt{ line-height:90px; padding-right:50px;}
+.LoginIn .dt .arrow{ width:20px; height:14px; display:block; position:absolute; right:10px; top:37px; background:url("../images/arrow.png")/*tpa=https://www.pigv5.com/Application/Home/View/images/arrow.png*/ no-repeat;}
+.LoginIn .dd{ position:absolute; top:90px; left:0; right:0; background:#fff; border:1px solid #dedede; line-height:40px; border-top:0; display:none;}
+.LoginIn .dd p{ border-top:1px solid #dedede; text-align:center;}
+.LoginIn .dd p a{ display:block; color:#1665c1;}
+/* banner */
+.banner{ width:100%; min-width:1200px;  position:relative; z-index:0;  overflow:hidden;}
+.banner .bd{ width:1920px; margin-left:-360px; position:relative; z-index:0;  }
+.banner .bd ul{ width:100% !important; }
+.banner .bd li{ width:100% !important; text-align:center; }
+.banner .hd{ width:100%;margin-top:25px; height:12px;text-align:center; }
+.banner .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:12px; height:12px; margin:0 4px; background:#d7d7d7; border-radius:50%;  overflow:hidden; line-height:9999px;}
+.banner .hd ul .on{  background:#08c; }
+
+/* footer */
+.footer{ width:100%; min-width:1200px;  background:#191919;}
+.footer ul{ padding:10px 0 30px;}
+.footer li .icon{ width:50px; height:50px; display:block; background:url("../images/footer-icon.png")/*tpa=https://www.pigv5.com/Application/Home/View/images/footer-icon.png*/ no-repeat;}
+.footer li h4{ font-size:18px; color:#fff; margin-top:10px; font-weight:normal;}
+.footer li p{ margin-top:40px; line-height:28px;}
+.footer li p span{ width:48%; float:left; font-size:14px; color:#666;}
+.footer li p span a{ color:#666;}
+.footer li.part1{ width:350px; float:left;}
+.footer li.part1 .icon{ background-position:0 0;}
+.footer li.part2{ width:470px; float:left; margin-left:90px;}
+.footer li.part2 .icon{ background-position:-50px 0;}
+.footer li.part3{ width:150px; float:right;}
+.footer li.part3 .icon{ background-position:-100px 0;}
+.copyright{ border-top:1px solid #424242; line-height:70px; font-size:18px; text-align:center; color:#666;}
+
+/* 首页 */
+.main1{ padding:80px 0 110px;}
+.maintit{ text-align:center;}
+.maintit h1{ font-size:60px; color:#1665c1; font-weight:normal;}
+.maintit p{ font-size:18px; color:#000; margin-top:10px;}
+.maintit p s{ width:66px; height:1px; background:#888; font-size:0; display:inline-block; margin:0 25px; position:relative; top:-5px;}
+.main1 .list{ margin-top:10px; }
+.main1 .list li{ float:left; margin-top:80px; text-align:center; width:150px;}
+.main1 .list li a{ display:block;}
+.main1 .list li span{ display:block; font-size:21px; margin-top:15px;}
+
+.main2{ width:100%; min-width:1200px;  background:url("../images/main2-bg.jpg")/*tpa=https://www.pigv5.com/Application/Home/View/images/main2-bg.jpg*/ no-repeat center top; padding:60px 0 240px;}
+.main2 .maintit h1,.main2 .maintit p{ color:#fff;}
+.main2 .maintit p s{ background:#fff;}
+.main2 .list{ margin-top:220px; background:#fff; height:490px; position:relative; z-index:0;}
+.main2 .list li{ width:260px; height:285px; padding:20px; text-align:center;}
+.main2 .list li .icon{ padding:10px 0;}
+.main2 .list li .txt{ padding-top:10px;}
+.main2 .list li .txt h2{ font-size:46px; font-weight:normal;}
+.main2 .list li .txt p{ font-size:18px; margin-top:10px;}
+.main2 .list li.part1{ position:absolute; background:#08c; top:-160px; left:0; color:#fff;}
+.main2 .list li.part2{ position:absolute; top:0; left:300px; color:#f8534f;}
+.main2 .list li.part3{ position:absolute; background:#ee7d31; top:-160px; left:600px; color:#fff;}
+.main2 .list li.part4{ position:absolute; top:0; right:0; color:#0eb86a;}
+.main2 .list li.part5{ position:absolute; top:165px; left:0; color:#ee7d31;}
+.main2 .list li.part6{ position:absolute; background:#0eb86a; bottom:-160px; left:300px; color:#fff;}
+.main2 .list li.part7{ position:absolute; bottom:0; left:600px; color:#08c;}
+.main2 .list li.part8{ position:absolute; background:#f8534f; bottom:-160px; right:0; color:#fff;}
+
+.main3{ padding-top:80px;}
+.main3 .list{ margin-top:40px;}
+.main3 .list li{ width:240px; float:left; padding:50px 0 100px; text-align:center;}
+.main3 .list li span{ display:block; margin-top:20px; font-size:21px;}
+
+.main4{ width:100%; min-width:1200px;  padding:80px 0 130px; background:url("../images/main4-bg.jpg")/*tpa=https://www.pigv5.com/Application/Home/View/images/main4-bg.jpg*/ no-repeat top center;}
+.main4 .maintit h1,.main4 .maintit p{ color:#fff;}
+.main4 .maintit p s{ background:#fff;}
+.main4 .list{ margin-top:40px;}
+.main4 .list li{ width:540px; float:left; margin-top:50px; background:#bfdef7; border:5px solid #fff; border-radius:75px; margin-right:30px; padding:25px 0; }
+.main4 .list li.part1,.main4 .list li.part4,.main4 .list li.part5{ border-color:#bfdef7; color:#1665c1;}
+.main4 .list li.part2,.main4 .list li.part3,.main4 .list li.part6{ background:none; color:#fff;}
+.main4 .list li.part3{ margin-left:70px;}
+.main4 .list li.part4{ margin-right:0;}
+.main4 .list li .icon{ float:left; margin-left:30px;}
+.main4 .list li .txt{ float:left; width:385px; margin-left:15px; line-height:1.4;}
+.main4 .list li .txt h2{ font-size:24px; font-weight:normal;}
+.main4 .list li .txt p{ font-size:18px;}
+
+.main5{ padding:80px 0 70px;}
+.main5 .list{ position:relative; z-index:0; margin-top:75px;}
+.blueline{ width:1040px; height:2px; background:#40b4f4; font-size:0; position:absolute; z-index:0; left:80px; top:95px;}
+.main5 .list li{ width:245px; float:left; position:relative; z-index:1;}
+.main5 .list li i{ width:49px; height:49px; float:left; display:inline-block; background:url("../images/main5-icon1.png")/*tpa=https://www.pigv5.com/Application/Home/View/images/main5-icon1.png*/ no-repeat;position:absolute; left:45px; top:70px;}
+.main5 .list li p{ font-size:24px;}
+.main5 .list li.part5{ width:200px;}
+.main5 .list li.part5 i{ position:absolute;left:110px;}
+.main5 .list li.part5 p{ text-align:right;}
+.main5 .list li.part2 p,.main5 .list li.part4 p{ margin-top:150px; }
+
+.main6{ width:100%; min-width:1200px; background:url("../images/main6-bg.jpg")/*tpa=https://www.pigv5.com/Application/Home/View/images/main6-bg.jpg*/ no-repeat top center; height:400px;}
+.main6 h2{ text-align:center; padding-top:165px; font-size:40px; color:#fff; font-weight:normal;}
+
+/* 新零售 */
+.xls1{ padding:80px 0 120px;}
+.xls1 .list{ margin-top:20px; }
+.xls1 .list li{ float:left; margin-top:60px; text-align:center; width:240px;}
+.xls1 .list li a{ display:block;}
+.xls1 .list li span{ display:block; font-size:21px; margin-top:15px;}
+
+.xls2{ width:100%; min-width:1200px; background:url("../images/xls2-bg.jpg")/*tpa=https://www.pigv5.com/Application/Home/View/images/xls2-bg.jpg*/ no-repeat top center; padding:80px 0 90px;}
+.xls2 .maintit h1,.xls2 .maintit p{ color:#fff;}
+.xls2 .maintit p s{ background:#fff;}
+.xls2 .list{ margin-top:90px;}
+.xls2 .list li{ border:4px solid #fff; width:182px; float:left; margin-right:10px;}
+.xls2 .list .txt{ padding:8px; color:#fff;line-height:2;}
+.xls2 .list .txt h2{ text-align:center; font-size:22px; font-weight:normal; margin-top:10px; }
+.xls2 .list .txt p{ font-size:15px;}
+.xls2 .list .icon{ padding:14px; text-align:center;}
+
+.xls3{ padding-top:80px;}
+.xls3 .list1{ width:1230px; margin-top:85px;}
+.xls3 .list1 li{ width:380px; float:left; margin-right:30px; background:#1565c0;}
+.xls3 .list1 li .img{ padding:10px;width:360px; height:280px;display:table-cell; vertical-align:middle; text-align:center;*display: block; *font-size:244px;*font-family:Arial;}
+.xls3 .list1 li h4{ font-size:22px; text-align:center; color:#fff; font-weight:normal; padding:4px 10px 10px; border-bottom:2px solid #fff;}
+.xls3 .list1 li .txt{ padding:20px 45px; font-size:16px; color:#fff;}
+
+.xls3 .list2{ width:992px; margin:85px auto 0;}
+.xls3 .list2 li{ width:406px; float:left; margin:0 45px; background:#1565c0;}
+.xls3 .list2 li .img{ padding:10px; width:386px; height:290px;display:table-cell; vertical-align:middle; text-align:center;*display: block; *font-size:253px;*font-family:Arial;}
+.xls3 .list2 li h4{ font-size:22px; text-align:center; color:#fff; font-weight:normal; padding:4px 10px 10px; border-bottom:2px solid #fff;}
+.xls3 .list2 li .txt{ padding:20px 45px; font-size:16px; color:#fff;}
+
+.xls3 .list3{ width:992px; margin:85px auto 0;}
+.xls3 .list3 li{ width:406px; float:left; margin:0 45px;}
+.xls3 .list3 li .img{ width:406px; height:290px;display:table-cell; vertical-align:middle; text-align:center;*display: block; *font-size:253px;*font-family:Arial;}
+.xls3 .list3 li h4{ font-size:22px; text-align:center; color:#1665c1; font-weight:normal; padding:4px 10px 10px; border-bottom:2px solid #1665c1;}
+.xls3 .list3 li .txt{ padding:20px 45px; font-size:16px; color:#1665c1;}
+
+.xls3 .list4{ width:1230px; margin-top:85px;}
+.xls3 .list4 li{ width:370px; float:left; margin-right:30px; border:5px solid #1565c0;}
+.xls3 .list4 li .img{  width:370px; height:290px;display:table-cell; vertical-align:middle; text-align:center;*display: block; *font-size:253px;*font-family:Arial;}
+.xls3 .list4 li h4{ font-size:22px; text-align:center; color:#1565c0; font-weight:normal; padding:4px 10px 10px; border-bottom:2px solid #1565c0;}
+.xls3 .list4 li .txt{ padding:20px 45px; font-size:16px; color:#1565c0;}
+
+.xls4{ padding:80px 0;}
+.xls4 ul{ width:1225px; margin-top:80px;}
+.xls4 li{ width:220px; float:left; margin-right:25px;}
+.xls4 li .img{ width:220px; height:250px;display:table-cell; vertical-align:middle; text-align:center;*display: block; *font-size:218px;*font-family:Arial;}
+.xls4 li p{ font-size:18px; margin-top:10px; text-align:center;}
+
+/* 会员运营 */
+.viptit h2{ font-size:72px; font-weight:normal; color:#2f2f2f;}
+.viptit h2 em{ width:80px; height:64px; display:inline-block; background:url("../images/vip-icon.png")/*tpa=https://www.pigv5.com/Application/Home/View/images/vip-icon.png*/ no-repeat; margin-right:25px; position:relative; top:10px;}
+.viptit h2 em.icn1{ background-position:0 0;}
+.viptit h2 em.icn2{ background-position:-100px 0;}
+.viptit p{ font-size:48px; line-height:2; color:#535353; display:inline-block; border-bottom:2px solid #1565c0;}
+.vipbox{ padding-top:200px;}
+.vipbox ul{ padding-top:40px;} 
+.vipbox li{ font-size:30px; line-height:1.7;}
+.vipbox li s{ width:10px; height:10px; display:inline-block; border-radius:50%; background:#fff; position:relative; top:-6px; margin-right:20px;}
+.vipbox li s.dot1{ background:#fda17b;}
+.vipbox li s.dot2{ background:#c14a98;}
+.vipbox li s.dot3{ background:#359f9d;}
+.vippart1{ width:100%; min-width:1200px; background:url("../images/vip-bg1.png")/*tpa=https://www.pigv5.com/Application/Home/View/images/vip-bg1.png*/ no-repeat right bottom; height:940px;}
+.vippart2{ width:100%; min-width:1200px; background:#1565c0; height:923px; padding:17px 0 20px;}
+.vippart2 .viptit h2,.vippart2 .viptit p,.vippart2 .vipbox ul,.vippart4 .viptit h2,.vippart4 .viptit p,.vippart4 .vipbox ul{ color:#fff;}
+.vippart2 .viptit p,.vippart4 .viptit p{ border-bottom-color:#fff;}
+.vippart3{ width:100%; min-width:1200px; background:url("../images/vip-bg3.png")/*tpa=https://www.pigv5.com/Application/Home/View/images/vip-bg3.png*/ no-repeat right bottom; height:960px;}
+.vippart4{ width:100%; min-width:1200px; background:#1565c0 url("../images/vip-bg4.jpg")/*tpa=https://www.pigv5.com/Application/Home/View/images/vip-bg4.jpg*/ no-repeat left bottom; height:923px; padding:17px 0 20px;}
+.vippart5{ width:100%; min-width:1200px; background:url("../images/vip-bg5.png")/*tpa=https://www.pigv5.com/Application/Home/View/images/vip-bg5.png*/ no-repeat 90% bottom; height:750px; margin-bottom:255px;}
+
+/* 收银系统 */
+.cashier1{ padding-top:80px;}
+.cashier1 .list{ margin-top:45px;}
+.cashier1 .list ul{ width:1250px;}
+.cashier1 .list li{ width:200px; float:left; margin:40px 50px 0 0; }
+.cashier1 .list li .img{ width:200px; height:150px;display:table-cell; vertical-align:middle; text-align:center;*display: block; *font-size:130.95px;*font-family:Arial;}
+.cashier1 .list li p{ font-size:24px; margin-top:30px; text-align:center;}
+.cashier2{ padding:80px 0;}
+.cashier2 .list ul{ width:1250px; text-align:center;}
+.cashier2 .list li{ width:200px; float:left; margin:85px 140px 0 0; }
+.cashier2 .list li.part4,.cashier2 .list li.part7{ margin-right:0;}
+.cashier2 .list li.part5{ margin-left:160px;}
+.cashier2 .list li .img{ width:200px; height:150px;display:table-cell; vertical-align:middle; text-align:center;*display: block; *font-size:130.95px;*font-family:Arial;}
+.cashier2 .list li p{ font-size:24px; margin-top:30px; text-align:center;}
+.cashier3{ width:100%; min-width:1200px; background:url("../images/cashier3-bg.jpg")/*tpa=https://www.pigv5.com/Application/Home/View/images/cashier3-bg.jpg*/ no-repeat top center; padding-top:60px;}
+.cashier3 .maintit h1,.cashier3 .maintit p{ color:#fff;} 
+.cashier3 .maintit p s{ background:#fff;}
+.cashier3 .img{ margin-top:70px;}
+.cashier4{ padding-top:80px;}
+.cashier4 .img{ margin-top:80px;}
+.cashier5{ padding:80px 0;}
+.cashier5 .img{ margin-top:80px;}
+
+/* 行业案列 */
+.caselist{ padding:80px 0 200px;}
+.caselist ul{ width:1300px;}
+.caselist li{ width:205px; float:left; margin:120px 120px 0 0 ;}
+.caselist li .img{ width:205px; height:205px;display:table-cell; vertical-align:middle; text-align:center;*display: block; *font-size:179px;*font-family:Arial;}
+.caselist li .txt{ text-align:center; font-size:24px; margin-top:20px;}
+.caselist li .txt h4{ font-weight:normal;}
+.caselist li .txt p{ color:#1565c0;}
+
+
+/* 关于我们 */
+.aboutbox{ padding-top:60px;}
+.aboutnav{ width:220px; float:left;}
+.aboutnav li{ border:2px solid #e6e6e6;border-right:0; margin-bottom:-2px; padding-left:3px;  font:22px/80px microsoft yahei; text-align:center; cursor:pointer;}
+.aboutnav li.on{ background:#f0f0f0; color:#1565c0; border-left:5px solid #1565c0; border-top-color:#f0f0f0;border-bottom-color:#f0f0f0; padding-left:0; position:relative; z-index:1;}
+.aboutcont{ margin-left:220px; background:#f0f0f0; padding:50px 105px 100px;}
+.aboutcont .infor p{ font-size:18px; line-height:2; padding-bottom:40px; text-indent:2em;}
+.aboutcont .contact h3{ font-size:24px; font-weight:normal;}
+.aboutcont .contact dl{ padding-top:30px; font-size:22px;}
+.aboutcont .contact dd{ line-height:3;}
+.aboutcont .contact dd p{ position:relative; z-index:0; padding-left:20px;}
+.aboutcont .contact dd s{width:10px; height:10px; display:inlien-block; background:#333; border-radius:50%; float:left; position:absolute; left:0; top:32px; }
+
+/* 登录 */
+.pertop{ width:100%; min-width:1200px; border-bottom:1px solid #dbdbdb;}
+.pertop .logo{ padding:15px 0; float:left;}
+.pertop s{ width:2px; height:24px; display:inline-block; background:#1665c1; font-size:0; margin:33px 15px 0 15px; float:left;}
+.pertop h4{ font-size:20px; color:#1665c1; padding-top:30px; font-weight:normal;}
+.formbox{ padding:100px 0 90px 265px; position:relative; z-index:0;}
+.formbox .item{ padding-bottom:55px; line-height:40px; position:relative; z-index:0;}
+.formbox .item label{ width:140px; float:left; text-align:right; font:22px/40px microsoft yahei; color:#333;}
+.formbox .item .dd{ margin-left:160px; }
+.formbox .codeimg{ margin-left:20px;}
+.formbox .alink{ font-size:14px;  margin-left:20px;}
+.formbox a{color:#1565c0;}
+.formbox .tips{ position:absolute; top:40px; left:160px; font-size:16px; color:#f00; display:none;}
+.formbox .regprotocol{ padding-bottom:0; font-size:16px;}
+.formbox .hasnum{ width:360px; text-align:right; font-size:16px;}
+.perfoot{ position:fixed; bottom:0; left:0; right:0; z-index:99; border-top:1px solid #dbdbdb; background:#fff;}
+.perfoot p{ font-size:18px; text-align:center; line-height:70px; color:#333;}

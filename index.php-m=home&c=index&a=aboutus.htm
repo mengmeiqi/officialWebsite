@@ -1,0 +1,160 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>亿创网络怎么样_关于亿创网络 – 亿创网络</title>
+<meta name="Keywords" content="亿创网络怎么样，亿创网络这家公司怎么样，关于亿创网络 " />
+<meta name="description" content="亿创网络，是一家以小程序／微信公众号/电商/互联网技术定制开发、线下商业企业IT硅规划、咨询业务为核心，集业务规划、咨询、研发、运营、推广、数据分析为一体的给线下商家、企业提供服务的综合性技术公司。为广大品牌企业提供创意策划、UI设计、程序研发、网络推广、数据分析于一体的一站综合服务" />
+<link rel="stylesheet" type="text/css" href="Application/Home/View/css/base.css"/>
+<link rel="stylesheet" type="text/css" href="Application/Home/View/css/main.css" />
+<script type="text/javascript" src="Application/Home/View/js/jquery-1.9.1.min.js" ></script>
+</head>
+
+<body>
+<!--头部 start-->
+
+<div class="tophead">
+   <div class="warper clearfix">
+      <div class="logo"><a href="index.php-m=home&c=index&a=index.htm" >
+      	<img src="Application/Home/View/images/logo.png"  />
+      </a></div>
+      <div class="menu">
+         <ul>
+           <li><a href="index.htm" >首页</a><s></s></li>
+           <li><a href="index.php-m=home&c=index&a=xinlingshou.htm" >新营销</a><s></s></li>
+           <li><a href="index.php-m=home&c=index&a=vipoperation.htm" >会员营销</a><s></s></li>
+           <li><a href="index.php-m=home&c=index&a=cashier.htm">支付功能</a><s></s></li>
+           <li  class="active"><a href="index.php-m=home&c=index&a=aboutus.htm" >公司介绍</a></li>
+         </ul>
+      </div>
+         <!--<div class="toplogin">-->
+            <!--<a href="index.php-m=v5&c=index&a=login.htm" class="Abtn1">登录</a>-->
+            <!--<a href="index.php-m=v5&c=index&a=register.htm"  class="Abtn2">注册</a>-->
+          <!--</div>-->
+       <iframe  height="90" src="login.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+   </div>
+</div>
+<!--头部 end-->
+<script type="text/javascript">
+	var url = window.location.href;
+	$(function(){
+		var url = window.location.href;
+		$('.menu ul li').each(function(){
+			var attr = $(this).find('a').attr('href');
+			if(url.indexOf(attr) >= 0){
+				$(this).addClass('active').siblings().removeClass('active');
+			}
+		})
+		
+		$(".LoginIn").hover(function(){
+		   $(".dd",this).show()	
+		},function(){
+			$(".dd",this).hide()	
+		})
+		
+		//获取要定位元素距离浏览器顶部的距离
+        var navH = $(".tophead").offset().top;
+        //滚动条事件
+        $(window).scroll(function(){
+        //获取滚动条的滑动距离
+        var scroH = $(this).scrollTop();
+        //滚动条的滑动距离大于等于定位元素距离浏览器顶部的距离，就固定，反之就不固定
+        if(scroH>navH){
+            $(".tophead").addClass("fixed");
+			}else if(scroH<=navH){
+			$(".tophead").removeClass("fixed");
+			}
+        })
+	})
+</script>
+<!--banner start-->
+<div class="banner">
+  <div class="warper">
+     <div class="bd"><img src="Application/Home/View/images/banner-gywm.png" /></div>
+  </div>
+</div>
+<!--banner end-->
+<!--main start-->
+<div class="aboutbox warper clearfix">
+   <div class="aboutnav">
+      <ul>
+        <li class="on">公司简介</li>
+      </ul>
+   </div>
+   <div class="aboutcont">
+      <div class="infor">
+         <p>亿创网络由从事网络营销软件行业10年以上资深人成立，一直从事网络营销软件和网络推广工具研究和开发。</p>
+         <p>作为国内领先的网络营销软件提供商，不断研发领先的网络营销软件，打造一流的推广产品；更致力于在互联网领域构建全新的OEM合作模式，建立合作更牢固、分工更科学、竞争更有优势的全新合作模式，从而改变现有网络行业效率低下、问题成堆及对渠道商严重不公的渠道体系，与合作伙伴共建网络行业合作新体系。</p>
+         <p>作为一家技术研发型公司，网势互联定位为电子商务方案提供商，不断增强公司研发能力，不断开发具有强大市场竞争力的网络产品，向合作伙伴不断提供优秀的网络产品方案。通过与合作伙伴共建全新合作体系，所有产品通过OEM模式，让合作伙伴拥有自有品牌的长期价值，并全面掌控产品定价、销售政策等，从而具有更有竞争力的定价、更灵活的政策、更本地化的服务，通过优势产品抢占当地庞大客户，占有庞大客户又可再延伸到其他产品线，从而横扫当地市场，形成一方网络行业格局。</p>
+      </div>
+   
+   </div>
+</div>
+<!--main end-->
+<!--footer start-->
+<iframe width="100%"  height="264" src="footer.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<!--<div class="footer">-->
+    <!--<div class="warper">-->
+       <!--<ul class="clearfix">-->
+           <!--<li class="part1">-->
+              <!--<div class="icon"></div>-->
+              <!--<h4>我们的服务</h4>-->
+              <!--<p>-->
+                <!--<span><a href="#" target="_blank">微信小程序</a></span>-->
+                <!--<span><a href="#" target="_blank">新零售IT建设和运营</a></span>-->
+                <!--<span><a href="#" target="_blank">会员营销和运营</a></span>-->
+                <!--<span><a href="#" target="_blank">线上线下一体化收银系统</a></span>-->
+                <!--<span><a href="#" target="_blank">电商服务化运营</a></span>-->
+                <!--<span><a href="#" target="_blank">线下商家IT规划咨询</a></span>-->
+              <!--</p>-->
+           <!--</li>-->
+           <!--<li class="part2">-->
+              <!--<div class="icon"></div>-->
+              <!--<h4>联系方式</h4>-->
+              <!--<p>-->
+               <!--<span>联系电话：187-4253-6684</span>-->
+                <!--<span>座机：0411-65899201</span>-->
+                <!--<span>邮箱：yichuang@yichuangcc.cn</span>-->
+              <!--</p>-->
+           <!--</li>-->
+           <!--<li class="part3">-->
+              <!--<div class="icon"></div>-->
+              <!--<h4>关注我们</h4>-->
+              <!--<p class="img">-->
+                <!--<img src="Application/Home/View/images/ewm.png" />-->
+              <!--</p>-->
+           <!--</li>-->
+       <!--</ul>-->
+    <!--</div>-->
+    <!--<div class="copyright"><p>@亿创网络    </p></div>-->
+<!--</div>-->
+<script>
+	var btn=document.getElementById('name');
+	  btn.onclick=function(){
+          alert('hello world');
+      }
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "../hm.baidu.com/hm.js-c7fb3b24df52cca002d1e74dcccb401a"/*tpa=https://hm.baidu.com/hm.js?c7fb3b24df52cca002d1e74dcccb401a*/;
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+<!--footer end-->
+<script type="text/javascript">
+		
+
+	$(".aboutnav li").click(Tabs);
+	$(".aboutnav li").click(function(){
+		alert(123456)
+	})
+	function Tabs(){
+		$(this).siblings().removeClass('on');
+		$(this).addClass('on');
+		$(this).parent().parent().next().children().addClass('none');
+		$(this).parent().parent().next().children().eq($(this).index()).removeClass('none');
+	}
+</script>
+</body>
+</html>

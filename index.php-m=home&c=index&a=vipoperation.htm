@@ -1,0 +1,203 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>会员运营_会员营销_CRM – 亿创网络</title>
+<meta name="Keywords" content="线下流量，会员运营，会员营销，CRM，支付即会员，周围客户，会员卡，卡券营销，店铺管理，店铺数据分析 " />
+<meta name="description" content="亿创网络，提供线上线下一体化的会员管理系统、会员营销系统" />
+<link rel="stylesheet" type="text/css" href="Application/Home/View/css/base.css"/>
+<link rel="stylesheet" type="text/css" href="Application/Home/View/css/main.css"/>
+<script type="text/javascript" src="Application/Home/View/js/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+<!--头部 start-->
+
+<div class="tophead">
+   <div class="warper clearfix">
+      <div class="logo"><a href="index.php-m=home&c=index&a=index.htm"><img src="Application/Home/View/images/logo.png" /></a></div>
+      <div class="menu">
+         <ul>
+            <li><a href="index.htm" >首页</a><s></s></li>
+           <li><a href="index.php-m=home&c=index&a=xinlingshou.htm" >新营销</a><s></s></li>
+           <li  class="active"><a href="index.php-m=home&c=index&a=vipoperation.htm" >会员营销</a><s></s></li>
+           <li><a href="index.php-m=home&c=index&a=cashier.htm">支付功能</a><s></s></li>
+           <li><a href="index.php-m=home&c=index&a=aboutus.htm" >公司介绍</a></li>
+         </ul>
+      </div>
+                <!--<div class="toplogin">
+            <a href="index.php-m=v5&c=index&a=login.htm"  class="Abtn1">登录</a>
+            <a href="index.php-m=v5&c=index&a=register.htm"  class="Abtn2">注册</a>
+          </div> -->
+       <iframe  height="90" src="login.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+   </div>
+</div>
+<!--头部 end-->
+<script type="text/javascript">
+	$(function(){
+		var url = window.location.href;
+		$('.menu ul li').each(function(){
+			var attr = $(this).find('a').attr('href');
+			if(url.indexOf(attr) >= 0){
+				$(this).addClass('active').siblings().removeClass('active');
+			}
+		})
+		
+		$(".LoginIn").hover(function(){
+		   $(".dd",this).show()	
+		},function(){
+			$(".dd",this).hide()	
+		})
+		
+		//获取要定位元素距离浏览器顶部的距离
+        var navH = $(".tophead").offset().top;
+        //滚动条事件
+        $(window).scroll(function(){
+        //获取滚动条的滑动距离
+        var scroH = $(this).scrollTop();
+        //滚动条的滑动距离大于等于定位元素距离浏览器顶部的距离，就固定，反之就不固定
+        if(scroH>navH){
+            $(".tophead").addClass("fixed");
+			}else if(scroH<=navH){
+			$(".tophead").removeClass("fixed");
+			}
+        })
+	})
+</script>
+<!--banner start-->
+<div class="banner">
+  <div class="warper">
+     <div class="bd"><img src="Application/Home/View/images/banner-vip.jpg"/></div>
+  </div>
+</div>
+<!--banner end-->
+<!--main start-->
+<div class="vippart1">
+    <div class="warper">
+      <div class="vipbox">
+       <div class="viptit">
+          <h2><em class="icn1"></em>会员卡</h2>
+          <p>一卡通会员，储值积分</p>
+       </div>
+       <ul>
+         <li><s class="dot1"></s>手机号码即一卡通ID</li>
+         <li><s class="dot2"></s>充值赠余额， 消费享积分</li>
+         <li><s class="dot3"></s>总店门店可设置的会员体系</li>
+       </ul>
+      </div>
+    </div>
+</div><!--vippart1 end-->
+<div class="vippart2">
+    <div class="warper clearfix">
+      <div class="vip-img2 fl"><img src="Application/Home/View/images/vip-bg2.png"/></div>
+      <div class="vipbox fr tr">
+       <div class="viptit">
+          <h2><em class="icn2"></em>自动成为会员</h2>
+          <p>支付即会员<!-- ，领红包成会员 --></p>
+       </div>
+       <ul>
+         <li><s></s>顾客使用任意支付工具进行扫码支付，即可关注商家</li>
+         <li><s></s>线下店内消费客户自动转化为会员</li>
+         <li><s></s>线上线下一套会员系统</li>
+       </ul>
+      </div>
+    </div>
+</div><!--vippart2 end-->
+<div class="vippart3">
+    <div class="warper">
+      <div class="vipbox">
+       <div class="viptit">
+          <h2><em class="icn1"></em>卡券营销</h2>
+          <p>个性化营销，提升销售量</p>
+       </div>
+       <ul>
+         <li><s class="dot1"></s>根据客户的兴趣爱好，精准推送优惠券信息</li>
+         <li><s class="dot2"></s>不同消费能力的顾客，促销不同商品</li>
+         <li><s class="dot3"></s>根据消费频次提醒客户，掌握促销时机，挽回流失的客户</li>
+       </ul>
+      </div>
+    </div>
+</div><!--vippart3 end-->
+<div class="vippart4">
+    <div class="warper">
+      <div class="vipbox fr tr">
+       <div class="viptit">
+          <h2><em class="icn2"></em>店铺管理</h2>
+          <p>线上线下完善的IT商业支撑体系</p>
+       </div>
+       <ul>
+         <li><s></s>统一商品管理、订单管理</li>
+         <li><s></s>可以统一多门店收账，也可以子门店独立收账</li>
+         <li><s></s>送货上门、到店核销</li>
+         <li><s></s>对接硬件、调货收银小票</li>
+       </ul>
+      </div>
+    </div>
+</div><!--vippart4 end-->
+<div class="vippart5">
+    <div class="warper">
+      <div class="vipbox">
+       <div class="viptit">
+          <h2><em class="icn1"></em>大数据分析</h2>
+          <p>提高门店经营能力</p>
+       </div>
+       <ul>
+         <li><s class="dot1"></s>用户数据，帮助了解你的用户</li>
+         <li><s class="dot2"></s>订单数据，帮助商户成本控制</li>
+         <li><s class="dot3"></s>活动数据，改善运营活动质量</li>
+       </ul>
+      </div>
+    </div>
+</div><!--vippart5 end-->
+<!--main end-->
+<!--footer start-->
+<iframe width="100%"  height="264" src="footer.html"  frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<!--<div class="footer">-->
+    <!--<div class="warper">-->
+       <!--<ul class="clearfix">-->
+           <!--<li class="part1">-->
+              <!--<div class="icon"></div>-->
+              <!--<h4>我们的服务</h4>-->
+              <!--<p>-->
+                <!--<span><a href="#" target="_blank">微信小程序</a></span>-->
+                <!--<span><a href="#" target="_blank">新零售IT建设和运营</a></span>-->
+                <!--<span><a href="#" target="_blank">会员营销和运营</a></span>-->
+                <!--<span><a href="#" target="_blank">线上线下一体化收银系统</a></span>-->
+                <!--<span><a href="#" target="_blank">电商服务化运营</a></span>-->
+                <!--<span><a href="#" target="_blank">线下商家IT规划咨询</a></span>-->
+              <!--</p>-->
+           <!--</li>-->
+           <!--<li class="part2">-->
+              <!--<div class="icon"></div>-->
+              <!--<h4>联系方式</h4>-->
+              <!--<p>-->
+                <!--&lt;!&ndash; <span>总机：400-691-8851</span> &ndash;&gt;-->
+              <!--<span>联系电话：187-4253-6684</span>-->
+                <!--<span>座机：0411-65899201</span>-->
+                <!--<span>邮箱：yichuang@yichuangcc.cn</span>-->
+              <!--</p>-->
+           <!--</li>-->
+           <!--<li class="part3">-->
+              <!--<div class="icon"></div>-->
+              <!--<h4>关注我们</h4>-->
+              <!--<p class="img">-->
+                <!--<img src="Application/Home/View/images/ewm.png"/>-->
+              <!--</p>-->
+           <!--</li>-->
+       <!--</ul>-->
+    <!--</div>-->
+   <!--<div class="copyright"><p>@亿创网络    </p></div>-->
+<!--</div>-->
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "../hm.baidu.com/hm.js-c7fb3b24df52cca002d1e74dcccb401a"/*tpa=https://hm.baidu.com/hm.js?c7fb3b24df52cca002d1e74dcccb401a*/;
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+<!--footer end-->
+
+</body>
+</html>

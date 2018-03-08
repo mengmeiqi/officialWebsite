@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*---------------------------------CSS Reset---------------------------------*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img,embed { margin: 0;padding: 0; outline:none;}
+body, button, input, select, textarea {  font:12px  microsoft yahei,Arial,Helvetica,sans-serif; }
+body{font:12px/1.5 microsoft yahei,Arial,Helvetica,sans-serif; }
+h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, form, img, p{border: none;list-style-type: none;}
+button, input, select, textarea{font-size: 100%;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
+h4{ display: block; font-weight:bold;}
+code, kbd, pre, samp {font-family: courier new,courier,monospace;}
+ul, ol, li{list-style: none outside none;}
+a {color:#333;text-decoration:none;}
+a:hover { color:#1665c1; text-decoration:none;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+legend { color: #222;}
+fieldset, img {border: 0 none;}
+.fl{float: left;}
+.fr{float: right;}
+.tl{text-align: left;}
+.tc{text-align: center;}
+.tr{text-align: right;}
+.inline{display: inline;}
+.none{display: none;}
+.show{display: block;}
+.overh{ overflow:hidden;}
+i,s{ font-style:normal; text-decoration:none;}
+fieldset, img{ border:0 none;}
+a img,img{ vertical-align:middle;}
+strong, b{  font-weight:normal;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+caption,th {text-align:left;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+.clear{clear:both;}
+.clearfix{zoom:1;}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+*{ outline:none;}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    box-shadow:0 0 0 60px #fff inset;
+    -webkit-text-fill-color: #333;
+}/*去掉谷歌浏览器记住密码样式*/
+
+/*--字体--*/
+.fm01{ font-family:simsun;}
+.fm02{ font-family:microsoft yahei;}
+.fs14{ font-size:14px;}
+.fs16{ font-size:16px;}
+.fs18{ font-size:18px;}
+.fs20{ font-size:20px;}
+.fs22{ font-size:22px;}
+.fs24{ font-size:24px;}
+.fs28{ font-size:28px;}
+.fs30{ font-size:30px;}
+/*--颜色--*/
+.black{ color:#333;}
+.gray{ color:#999;}
+.org{ color:#f60;}
+.red{ color:#dc2727;}
+.blue{ color:#2977c8;}
+.green{ color:#a7d22d;}
+/*--宽度--*/
+.warper{ width:1200px; margin:0 auto;}
+
+/*--边距--*/
+.mt10{ margin-top:10px;}
+.mt15{ margin-top:15px;}
+.mt20{ margin-top:20px;}
+.mt90{ margin-top:90px;}
+.mr10{ margin-right:10px;}
+.ml5{ margin-left:5px;}
+.pl15{ padding-left:15px;}
+
+/*--单选按钮--*/
+.inp_box{ position:relative; top:2px; *top:0; margin-right:5px;}
+
+/*--输入框--*/
+.inptxt{width:340px; height:20px; padding:9px; border:1px solid #b3b3b3; font:16px/20px microsoft yahei; color:#333; border-radius:3px;}
+
+/*--按钮--*/
+.loginbtn{ width:360px; border:0; height:48px; background:#1565c0; border-radius:3px; font:16px/48px microsoft yahei; margin-top:10px; color:#fff; letter-spacing:2px; cursor:pointer; }
+.Abtn1{ background:#fff; border:1px solid #333;}
+.Abtn2{ background:#1665c1; border:1px solid #fff; color:#fff;}
+.Abtn2:hover{ color:#fff;}
